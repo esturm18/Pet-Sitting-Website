@@ -7,5 +7,8 @@ Files in this archive:
     -contact.html: contact information request page for the website
     -index.html: main home page for the website
     -README: file gives short description of files in the archive
+    -video.mp4: video clip showing dog
+    -DOMContact_Page.pdf: DOM drawing of the Contact page
+    -SEOandAccessibility.txt: Paragraph explaining SEO/Accessbility design in website. Link to GitHub website also included here. 
 
 GitHub website link:  https://esturm18.github.io/Pet-Sitting-Website/
