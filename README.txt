@@ -12,3 +12,4 @@ Files in this archive:
     -SEOandAccessibility.txt: Paragraph explaining SEO/Accessbility design in website. Link to GitHub website also included here. 
 
 GitHub website link:  https://esturm18.github.io/Pet-Sitting-Website/
+Emma Sturm
