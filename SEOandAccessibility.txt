@@ -1,0 +1,8 @@
+SEO and Accessibility Write-Up:
+
+The site is organized to meet Search Engine Optimization Standards by including meta information in the head of every page. 
+This information includes the name of the author (myself), keywords, and a description. All this information makes it 
+so it is easier to research the website on a browser. I also used HTML semantics (i.e. <section> to improve SEO). 
+In regards to creating a website that is accessible, I included the role of the navigation bar, main, and sections, and also
+included a video description for the video. Furthermore, on the contact page I included label descriptions for the 
+text entry boxes and the submit button. 

@@ -3,34 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pet sitting contact information">
+    <meta name="keywords" content="pet sitting, pet care, pet, pet sitter contact, contact">
+    <meta name="author" content="Emma Sturm">
     <title>Contact</title>
 </head>
 <body>
-    <h1>Contact Us</h1>
-    <nav role="Navigation">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
-    <h2>Get in Touch</h2>
-    <p>If you have any questions or would like to book our services, feel free to reach out to us using the 
-        <br>contact form below.
-    </p>
-    <form action="/submit-form" method="POST">
-        <label for="name">Your Name:</label>
-        <input type="text" id="name" name="name" required><br><br>
+    <!--Header for Contact page-->
+    <header role="Contact Us page header">
+        <h1>Contact Us</h1>
+        <nav role="Navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--Main section for Contact page-->
+    <main role="Section explaining how to contact the pet sitting company">
+        <section role="Getting in touch">
+            <h2>Get in Touch</h2>
+            <p>If you have any questions or would like to book our services, feel free to reach out to us using the 
+            <br>contact form below.
+            </p>
+        </section>
+        <section role="Form to request a query">
+            <form action="#" method="POST">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
 
-        <label for="email">Your Email:</label>
-        <input type="text" id="email" name="email" required><br><br>
+                <label for="email">Your Email:</label>
+                <input type="text" id="email" name="email" required><br><br>
 
-        <label for="message">Your Message:</label><br>
-        <textarea id = "message" name="message" rows="4" cols="55" required></textarea></form><br>
+                <label for="message">Your Message:</label><br>
+                <textarea id = "message" name="message" rows="4" cols="55" required></textarea></form><br>
         
-        <input type="submit" value="Submit">
-    </form>
-    <footer>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <!--Footer-->
+    <footer>    
         <p>Contact us at: <a href = "info@petSitting.com">info@petSitting.com</a></p>
     </footer>
 </body>
