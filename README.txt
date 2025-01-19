@@ -7,3 +7,5 @@ Files in this archive:
     -contact.html: contact information request page for the website
     -index.html: main home page for the website
     -README: file gives short description of files in the archive
+
+GitHub website link:  https://esturm18.github.io/Pet-Sitting-Website/
