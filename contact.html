@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en", dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body>
+    <h1>Contact Us</h1>
+    <nav role="Navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <h2>Get in Touch</h2>
+    <p>If you have any questions or would like to book our services, feel free to reach out to us using the 
+        <br>contact form below.
+    </p>
+    <form action="/submit-form" method="POST">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Your Email:</label>
+        <input type="text" id="email" name="email" required><br><br>
+
+        <label for="message">Your Message:</label><br>
+        <textarea id = "message" name="message" rows="4" cols="55" required></textarea></form><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+    <footer>
+        <p>Contact us at: <a href = "info@petSitting.com">info@petSitting.com</a></p>
+    </footer>
+</body>
+</html>
